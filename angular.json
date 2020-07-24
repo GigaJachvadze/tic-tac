@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tic-tac"
+    }
+  },
+  "defaultProject": "tic-tac",
+  "cli": {
+    "analytics": "33d5c190-83ee-4417-85d4-0bee58d8410a"
+  }
 }

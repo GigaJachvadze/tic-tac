@@ -1,0 +1,9 @@
+<h1>Tic-Tac-Toe</h1>
+
+<div class="BOARD_CONTAINER" style="background-color: whitesmoke;">
+    <div *ngFor="let cell of boardCells;index as i" (click)="clicked(i)">{{liveBoard[i]}}</div>
+</div>
+
+<h2 *ngIf="localWinner">The winner is: {{localWinner}}</h2>
+<br><br>
+<button *ngIf="localWinner" (click)="reset()">Reset!</button>
